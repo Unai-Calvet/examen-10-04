@@ -1,0 +1,8 @@
+CREATE TABLE faltes (
+    id INTEGER PRIMARY KEY NOT NULL,
+    data TEXT NOT NULL
+);
+selectAll:
+SELECT * FROM faltes;
+insert:
+INSERT INTO faltes(id, data) VALUES (?, ?);
